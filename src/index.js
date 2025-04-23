@@ -297,6 +297,6 @@ export default {
       return handleCallback(request, env);
     }
 
-    return new Response('', { status: 404 });
+    return new Response('404', { status: 404 });
   },
 };
